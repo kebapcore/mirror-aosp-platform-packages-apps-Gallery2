@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Light theme (default) colors -->
+    <color name="colorPrimary">#8BC34A</color> <!-- lighter green -->
+    <color name="colorPrimaryDark">#66BB6A</color>
+    <color name="colorSecondary">#26C6DA</color> <!-- lighter teal -->
+    <color name="gradient_start">#8BC34A</color>
+    <color name="gradient_end">#26C6DA</color>
+    <color name="colorBackground">#FFFFFF</color>
+</resources>
+<?xml version="1.0" encoding="utf-8"?>
 <!-- Copyright (C) 2012 The Android Open Source Project
 
      Licensed under the Apache License, Version 2.0 (the "License");

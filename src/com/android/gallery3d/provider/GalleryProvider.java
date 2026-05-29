@@ -44,7 +44,7 @@ import java.io.IOException;
 public class GalleryProvider extends ContentProvider {
     private static final String TAG = "GalleryProvider";
 
-    public static final String AUTHORITY = "com.android.gallery3d.provider";
+    public static final String AUTHORITY = "com.nefiora.galerry.provider";
     public static final Uri BASE_URI = Uri.parse("content://" + AUTHORITY);
 
     public static interface PicasaColumns {

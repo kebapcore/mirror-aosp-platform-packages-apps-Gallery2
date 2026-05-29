@@ -43,7 +43,7 @@
             android:layout_gravity="top|right"
             android:includeFontPadding="false"
             android:textSize="13sp"
-            android:fontFamily="sans-serif-light"
+            android:fontFamily="sans-serif"
             android:textColor="@color/ingest_date_tile_text" />
         <TextView
             android:id="@+id/date_tile_day"

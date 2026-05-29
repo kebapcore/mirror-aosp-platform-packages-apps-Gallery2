@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Dark theme colors -->
+    <color name="colorPrimary">#0B6623</color> <!-- dark green -->
+    <color name="colorPrimaryDark">#094F1A</color>
+    <color name="colorSecondary">#003E4D</color> <!-- dark teal/navy -->
+    <color name="gradient_start">#0B6623</color>
+    <color name="gradient_end">#003E4D</color>
+    <color name="colorBackground">#000000</color>
+</resources>

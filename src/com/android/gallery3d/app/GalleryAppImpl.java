@@ -26,6 +26,7 @@ import com.android.gallery3d.data.ImageCacheService;
 import com.android.gallery3d.gadget.WidgetUtils;
 import com.android.gallery3d.picasasource.PicasaSource;
 import com.android.gallery3d.util.GalleryUtils;
+import com.android.gallery3d.util.FontUtils;
 import com.android.gallery3d.util.LightCycleHelper;
 import com.android.gallery3d.util.ThreadPool;
 import com.android.gallery3d.util.UsageStatistics;
@@ -47,6 +48,8 @@ public class GalleryAppImpl extends Application implements GalleryApp {
     public void onCreate() {
         super.onCreate();
         initializeAsyncTask();
+        // Override default system fonts with Outfit (place Outfit ttf files under assets/fonts/)
+        FontUtils.overrideAllDefaultFonts(this, "fonts/Outfit-Regular.ttf", "fonts/Outfit-Bold.ttf");
         GalleryUtils.initialize(this);
         WidgetUtils.initialize(this);
         PicasaSource.initialize(this);
